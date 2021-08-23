@@ -1,9 +1,11 @@
 import React from 'react';
 
-const PlaceDetails = () => {
+import useStyles from './styles.js';
+
+const PlaceDetails = ({ place }) => {
     return(
-        <h1>Place Details</h1>
+        <h1>{place.name}</h1>
     );
-}
+};
 
 export default PlaceDetails;
