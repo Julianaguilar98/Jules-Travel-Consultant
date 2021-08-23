@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, Select } from '@material-ui/core';
-import useStyles from './styles';
 
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import useStyles from './styles.js';
@@ -52,6 +51,6 @@ const List = () => {
             </Grid>
         </div>
     );
-};s
+};
 
 export default List;
